@@ -5,6 +5,27 @@
   text-align: center;
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.row label {
+  margin-right: 1rem;
+}
+
+.row select,
+.row input {
+  margin-right: 1rem;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
